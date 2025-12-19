@@ -1,1 +1,166 @@
+1st Intro:
 
+My Self..., I have around XX years of experience in front end development, As a React Developer, my day typically starts with daily stand-ups, where we discuss progress, blockers, and upcoming tasks. I work in an Agile/Scrum environment, actively participating not only in development but also in sprint planning, backlog grooming, and code reviews to ensure quality and alignment across the team.
+
+UI Development
+
+Convert Figma/Adobe XD designs into pixel-perfect, reusable React components using React 18/19, Next.js, and Tailwind/MUI. Follow Atomic Design principles to build modular components that are responsive and accessible (WCAG standards).Example: Built a dynamic form builder where fields and validations were fully driven by backend configuration.
+
+State Management
+
+Use Redux Toolkit (slices, thunks, RTK Query) for global state management.Implement React Query for caching, pagination, synchronization, and optimistic updates.
+Example: Developed an e-commerce cart module handling add/remove/update actions with persisted state (localStorage), while syncing changes with backend via RTK Query.
+
+🌐 API Integration
+
+Integrate with REST APIs and GraphQL (queries/mutations) using Axios, Apollo, or fetch.Implement error handling, retry logic, and authentication flows (JWT + refresh tokens).
+Create custom hooks (e.g., useFetchWithRetry) to standardize and reuse API logic across the app.
+
+🚀 Performance Optimization
+
+Profile apps using React Profiler and Lighthouse to identify bottlenecks.Apply code splitting (React.lazy/Suspense), tree-shaking, and dynamic imports to optimize bundle size.
+Use useMemo, useCallback, React.memo to prevent unnecessary re-renders. Example: Optimized a 10K+ product listing page with virtualization (React Window), improving load time by 40%.
+
+✅ Testing & Quality
+
+Practice TDD/BDD where possible.
+Write unit tests with Jest + React Testing Library (mocking APIs, testing hooks/components). Implement end-to-end tests with Cypress/Playwright to validate workflows (e.g., checkout flow with multiple user roles).
+Integrate automated tests into CI pipelines, ensuring builds fail if coverage drops. Example: Boosted test coverage of a customer dashboard module to 85% with automated regression tests.
+
+⚙️ CI/CD & Deployment
+
+Work with GitHub/GitLab for version control and raise PRs with code reviews. Ensure compliance with SonarQube, linting, and formatting checks before merge.
+Configure Azure DevOps/GitHub Actions pipelines for automated builds, test runs, and deployments. Apply blue-green deployments and feature toggles for controlled releases.
+Example: Deployed a Next.js app on Vercel with ISR (Incremental Static Regeneration) for SEO and performance.
+
+🤝 Collaboration & Ownership
+
+Collaborate with UI/UX designers during design reviews and with backend developers to finalize API contracts. Partner with QA testers to prepare test cases, resolve bugs, and ensure smooth UAT.
+Provide production support by monitoring logs via Sentry/Kibana, delivering quick hotfixes when required.
+
+👉 Overall, I take end-to-end ownership of features — from requirement analysis to development, testing, deployment, and production support — ensuring not only functionality, but also performance, accessibility, and maintainability.
+
+
+2nd intro
+
+I am a React Front-End Developer with around 4–5 years of experience.
+
+My core expertise is in React.js with TypeScript, building scalable and maintainable web applications.
+
+Along with development, I also have hands-on experience in Playwright automation testing, which helps me deliver stable and high-quality features.
+
+React Experience (What & Why)
+
+I mainly work with functional components and hooks, following modern React standards.
+
+I focus on:
+
+Building reusable UI components
+
+Keeping components clean, readable, and testable
+
+I follow component-driven development, so UI logic, API logic, and state are well separated.
+
+It improves maintainability.
+
+New developers can understand and extend features easily.
+
+Reduces bugs during enhancements.
+
+TypeScript Usage
+
+I use TypeScript across the project to:
+
+Define clear data contracts between UI and backend
+
+Avoid runtime errors
+
+Improve developer confidence while refactoring
+
+TypeScript helps especially in large applications where multiple developers work on the same codebase.
+
+Real impact
+
+Fewer production issues.
+
+Faster code reviews.
+
+Better collaboration across teams.
+
+State Management & Performance
+
+Based on project size, I choose:
+
+Context API for small to medium apps
+
+Redux Toolkit for complex global state
+
+I actively work on performance optimization, such as:
+
+Reducing unnecessary re-renders
+
+Optimizing component structure
+
+Splitting large components into smaller ones
+
+API Integration
+
+I have experience integrating REST and GraphQL APIs.
+
+I ensure:
+
+Proper loading and error handling
+
+Clean separation between UI and API layers
+
+I also collaborate closely with backend teams to align API contracts.
+
+Playwright Automation (High Level)
+
+I use Playwright for end-to-end automation testing.
+
+I automate critical user flows, not everything blindly.
+
+Common scenarios I cover:
+
+Login and authentication
+
+Form submissions
+
+Navigation and role-based access
+
+I follow Page Object Model, so test cases are reusable and easy to maintain.
+
+Why Playwright
+
+Fast and reliable
+
+Works well across browsers
+
+Good for CI/CD integration
+
+Development + Testing Mindset
+
+Having both development and automation experience helps me:
+
+Think from a user perspective
+
+Write more testable UI code
+
+Catch issues early in the development cycle
+
+This reduces dependency on manual testing and improves release confidence.
+
+Team & Process
+
+I have worked in Agile teams with sprint planning, reviews, and retrospectives.
+
+I regularly participate in:
+
+Code reviews
+
+Debugging production issues
+
+Performance improvements
+
+I communicate clearly with QA, backend, and product teams.
