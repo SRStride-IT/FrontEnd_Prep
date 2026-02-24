@@ -1,0 +1,121 @@
+🔥 JAVASCRIPT
+1️⃣ What is Closure?
+
+A closure is when a function remembers and accesses variables from its outer scope even after the outer function has finished execution.
+
+It happens because of lexical scoping in JavaScript.
+
+In real projects, closures are used for:
+
+Data privacy
+
+Maintaining state in functions
+
+Event handlers
+
+Custom hooks in React
+
+2️⃣ What is Hoisting?
+
+Hoisting is JavaScript’s default behavior of moving variable and function declarations to the top of their scope during compilation.
+
+Variables declared with var are initialized as undefined.
+
+Variables declared with let and const are hoisted but placed in a Temporal Dead Zone until initialized.
+
+3️⃣ What is the Event Loop?
+
+JavaScript is single-threaded, meaning it can execute one task at a time.
+
+The event loop manages asynchronous operations by:
+
+Executing synchronous code in the call stack
+
+Handling async tasks via Web APIs
+
+Moving completed tasks into the callback queue
+
+Processing microtasks (Promises) before macrotasks (setTimeout)
+
+This ensures non-blocking behavior.
+
+4️⃣ Difference Between == and ===
+
+== checks only value and performs type conversion.
+
+=== checks both value and type.
+
+Best practice is to always use === to avoid unexpected type coercion bugs.
+
+5️⃣ What is a Promise?
+
+A Promise represents the eventual completion or failure of an asynchronous operation.
+
+It has three states:
+
+Pending
+
+Fulfilled
+
+Rejected
+
+Promises help manage asynchronous code more cleanly than callbacks.
+
+6️⃣ Difference Between async/await and .then()
+
+Both are used to handle Promises.
+
+.then() uses chaining syntax.
+
+async/await provides cleaner and more readable syntax, especially when handling multiple asynchronous calls.
+
+async/await also improves error handling using try-catch blocks.
+
+7️⃣ What is the Difference Between map and forEach?
+
+map creates and returns a new array.
+
+forEach executes a function for each element but does not return anything.
+
+Use map when transforming data.
+Use forEach when performing side effects like logging.
+
+8️⃣ What is Reduce?
+
+reduce is used to transform an array into a single value.
+
+It is commonly used for:
+
+Calculating totals
+
+Grouping data
+
+Flattening arrays
+
+Converting arrays to objects
+
+9️⃣ What is a Higher-Order Function?
+
+A higher-order function is a function that:
+
+Accepts another function as an argument
+
+Or returns a function
+
+Examples include map, filter, and reduce.
+
+This supports functional programming patterns.
+
+🔟 What is Debouncing?
+
+Debouncing is a technique that limits how often a function executes.
+
+It ensures that a function runs only after a certain delay, once the user stops triggering the event.
+
+Commonly used in:
+
+Search inputs
+
+Window resizing
+
+Auto-saving forms
