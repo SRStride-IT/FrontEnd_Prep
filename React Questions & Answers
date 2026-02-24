@@ -1,0 +1,156 @@
+⚛️ REACT – Theoretical Answers
+1️⃣ What is React?
+
+React is a JavaScript library for building component-based user interfaces.
+
+It uses a Virtual DOM to efficiently update the real DOM.
+
+It follows a declarative approach, meaning UI updates automatically when state changes.
+
+2️⃣ What is Virtual DOM?
+
+The Virtual DOM is a lightweight copy of the real DOM.
+
+When state changes:
+
+React creates a new virtual DOM
+
+Compares it with the previous version (diffing)
+
+Updates only changed elements
+
+This improves performance.
+
+3️⃣ What Causes Re-render in React?
+
+A component re-renders when:
+
+Its state changes
+
+Its props change
+
+Its parent re-renders
+
+Context value changes
+
+4️⃣ What is useState?
+
+useState is a hook that allows functional components to manage local state.
+
+When state updates, the component re-renders.
+
+It helps manage dynamic UI behavior.
+
+5️⃣ What is useEffect?
+
+useEffect is used to perform side effects in functional components.
+
+Common uses:
+
+API calls
+
+Event listeners
+
+Subscriptions
+
+Timers
+
+It replaces lifecycle methods like componentDidMount.
+
+6️⃣ What is the Dependency Array in useEffect?
+
+The dependency array controls when the effect runs.
+
+Empty array → runs once
+
+With variables → runs when dependencies change
+
+No array → runs after every render
+
+7️⃣ Difference Between useMemo and useCallback
+
+useMemo memoizes a computed value.
+
+useCallback memoizes a function.
+
+Both are used to prevent unnecessary re-renders and improve performance.
+
+8️⃣ What is React.memo?
+
+React.memo prevents a component from re-rendering if its props have not changed.
+
+It is useful for optimizing child components in large applications.
+
+9️⃣ Controlled vs Uncontrolled Components
+
+Controlled components manage form data using React state.
+
+Uncontrolled components rely on DOM references.
+
+Controlled components are preferred for validation and better control.
+
+🔟 What are Keys in React?
+
+Keys help React identify which items changed, were added, or removed in lists.
+
+Using unique keys improves performance and prevents UI bugs.
+
+Avoid using array index as key when list order changes dynamically.
+
+1️⃣1️⃣ What is Context API?
+
+Context API is used to share global data without passing props manually at every level.
+
+It is suitable for:
+
+Theme
+
+Authentication
+
+Language settings
+
+For complex state logic, Redux is better.
+
+1️⃣2️⃣ What is Redux Toolkit?
+
+Redux Toolkit simplifies Redux setup.
+
+It provides:
+
+Built-in immutability handling
+
+Slices
+
+Async logic support
+
+Better developer experience
+
+Used in large-scale applications.
+
+1️⃣3️⃣ What is Code Splitting?
+
+Code splitting divides application bundle into smaller chunks.
+
+This improves initial load performance.
+
+Often implemented using lazy loading.
+
+1️⃣4️⃣ What is Virtualization?
+
+Virtualization renders only visible items in a large list instead of the full dataset.
+
+This improves performance in large datasets like product listings or dashboards.
+
+1️⃣5️⃣ What is Hydration?
+
+Hydration is the process of attaching event listeners to server-rendered HTML in frameworks like Next.js.
+
+Hydration errors occur when client and server render different content.
+
+Common causes:
+
+Random values
+
+Date differences
+
+Conditional rendering mismatches
